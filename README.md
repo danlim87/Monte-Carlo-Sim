@@ -1,8 +1,8 @@
 # Monte-Carlo-Sim
 
-A Monte Carlo simulation script that projects investment outcomes over a specified period of time. The goal is to observe the various outcomes for a financial instrument with known historical metrics (mean and standard deviation). 
+A Monte Carlo simulation script that projects investment outcomes using ONLY the 1) average and 2) standard deviation of the historical performance of said investment. The goal is to observe the various outcomes for a financial instrument with known historical metrics (mean and standard deviation). 
 
-*Note: ***EXTREMELY IMPORTANT - Past performance is no guarantee of future results.***  This is mainly a simulation to highlight how variance could alter investment results even over a period that one deems as a significant sample size.  This is not financial advice and should be taken more from a theoretical point of view. 
+*Note: ***EXTREMELY IMPORTANT - Past performance is no guarantee of future results.***  And this is a very simplified model. This is mainly a simulation to highlight variance and how it could alter investment results even over a period that one deems as a significant sample size.  This is not financial advice and should be taken more from a theoretical point of view. 
 
 The user enters:
 - Mean and standard deviation of historical returns of said investment. 
