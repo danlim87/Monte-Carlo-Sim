@@ -26,7 +26,7 @@ def balance_updater(balance, pct):
         balance_list.append(balance)
     return balance_list
 
-def df_creator(balance, avg, std, num_sim, num_length):
+def df_creator(balance = 100000, avg, std, num_sim = 50, num_length = 50):
     
     """
     Returns dataframe ran by monte-carlo.  Assumes normal distribution when selecting samples. 
