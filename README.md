@@ -8,7 +8,7 @@ A Monte Carlo simulation script that projects investment outcomes using ONLY the
 
 This repository can be used in 1 of 2 ways:
 1. Run monte_carlo.py.  It will ask user to input certain parameters (mean, standard deviation, etc., confidence interval).  Then the script will run and will generate a 1) plotly graph and 2) confidence interval for where the final balance will fall under. 
-2. For a more exploranatory analysis using jupyter notebook, one can simply import the module (ex. import monte_carlo as mc) and use the function "df_creator" to create a dataframe of time x simulations. 
+2. For a more exploranatory analysis using jupyter notebook, one can simply import the module (ex. import monte_carlo as mc) and 1) use the function "df_creator" to create a dataframe of time x simulations. Then, 2) use function "distplot_final_balance" to create a plotly graph. 
 
 
 Assumptions:
