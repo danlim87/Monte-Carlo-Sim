@@ -4,7 +4,7 @@
 
 A Monte Carlo simulation script that projects investment outcomes using ONLY the 1) average and 2) standard deviation of the historical performance of said investment. The goal is to observe the various outcomes for a financial instrument with known historical metrics (mean and standard deviation). 
 
-*Note: ***EXTREMELY IMPORTANT - Past performance is no guarantee of future results.***  And this is a very simplified model. This is mainly a simulation to highlight variance and how it could alter investment results even over a period that one deems as a significant sample size.  This is not financial advice and should be taken more from a theoretical point of view. 
+*Note: ***Past performance is no guarantee of future results.***  And this is a very simplified model. This is mainly a simulation to highlight variance and how it could alter investment results even over a period that one deems as a significant sample size.  This is not financial advice and should be taken more from a theoretical point of view. 
 
 This repository can be used in 1 of 2 ways:
 1. Run monte_carlo.py.  It will ask user to input certain parameters (mean, standard deviation, etc., confidence interval).  Then the script will run and will generate a 1) plotly graph and 2) confidence interval for where the final balance will fall under. 
